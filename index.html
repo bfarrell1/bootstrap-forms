@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form practice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+<body>
+  <div class ="container">
+    <div class ="row">
+    <div class = "col-md-8 col-sm-4">
+      <h1> Keeping it teal: A quiz about the San Jose Sharks </h1>
+      <p> This is a quiz about the San Jose Sharks, a hockey team in the NHL.</p>
+      <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/San_Jose_Sharks" role="button">Link to Wikipedia</a>
+      <form>
+        <div class="form-group">
+          <label class="form-control-label" for="question1"> Question #1: Who is the Sharks' all-time leading scorer?</label>
+          <input class="form-control" type="text" name="text1" id="question1" placeholder="Enter your answer here">
+        </div class="group-append">
+    <div class="form-group">
+      <label class="form-control-label" for="question2" class="form-control-label"> Question #2: What year did the Sharks appear in the Stanley Cup Finals?</label>
+      <input class="form-control" type ="text" name="text2" id="question2" placeholder="Enter your answer here">
+    </div class="group-append">
+    <div class="form-group">
+      <label class="form-control-label" for="question3"> Question #3: How did the Gunds acquire an expansion team in the Bay Area?</label>
+      <textarea class="form-control" name="textarea" id="question3" rows="4" placeholder="Enter your answer here" maxlength="50"></textarea>
+    </div class="group-append">
+    <div class="form-check btn-group-vertical">
+      <label class="form-check-label"> Question #4: Which of the following players have NOT been team captain?</label>
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="captain" value="Joe Thornton"> Joe Thornton</label>
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="captain" value="Owen Nolan"> Owen Nolan</label>
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="captain" value="Jamie Baker"> Jamie Baker</label>
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="captain" value="Joe Pavelski"> Joe Pavelski</label>
+      </div>
+    <div class= "form-check btn-group-vertical">
+      <label class="form-check-label"> Question #5: Which of the following players is BOTH a former Sharks first-round pick AND currently on the roster? </label>
+      <label class="form-check-label"><input class="form-check-input" type="checkbox" name="firstAndRoster" value="Timo Meier"> Timo Meier</label>
+      <label class="form-check-label"><input class="form-check-input" type="checkbox" name="firstAndRoster" value="Tomas Hertl"> Tomas Hertl</label>
+      <label class="form-check-label"><input class="form-check-input" type="checkbox" name="firstAndRoster" value="Ryan Merkley"> Ryan Merkley</label>
+      <label class="form-check-label"><input class="form-check-input" type="checkbox" name="firstAndRoster" value="Brent Burns"> Brent Burns</label>
+      <label class="form-check-label"><input class="form-check-input" type="checkbox" name="firstAndRoster" value="Logan Couture"> Logan Couture</label>
+    </div class="group-append">
+
+    <div class= "form-group">
+      <label class= "form-group-label"> Question #6: Against which team did the Sharks come back from a 3-1 series deficit to beat in the first round of the 2019 Stanley Cup Playoffs? </label>
+        <select name = "deficit" id="question6">
+          <option value="penguins"> Pittsburgh Penguins </option>
+          <option value="knights"> Vegas Golden Knights </option>
+          <option value="kings"> Los Angeles Kings </option>
+          <option value="ducks"> Anaheim Ducks </option>
+          <option value="flames"> Calgary Flames </option>
+          <option value="avalanche"> Colorado Avalanche </option>
+        </select> </div>
+    <input class="btn-primary" type="submit" value="Submit"> <input class="btn-secondary" type="reset" value="Reset">
+
+
+
+       </form>
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+</body>
+</html>
